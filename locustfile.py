@@ -18,8 +18,8 @@ class ChatUser(HttpUser):
                     {
                         "user": random.choice(
                             [
-                                "What is included in my Northwind Health Plus plan that is not in standard?",
-                                "What does a Product Manager do?",
+                                "What is POSH Policy?",
+                                "What does included in the  domestic travel polciy?",
                                 "What happens in a performance review?",
                                 "Whats your whistleblower policy?",
                             ]

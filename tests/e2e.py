@@ -71,8 +71,8 @@ def test_chat(page: Page, live_server_url: str):
     expect(page.get_by_role("button", name="Developer settings")).to_be_enabled()
 
     # Ask a question and wait for the message to appear
-    page.get_by_placeholder("Type a new question (e.g. does my plan cover annual eye exams?)").click()
-    page.get_by_placeholder("Type a new question (e.g. does my plan cover annual eye exams?)").fill(
+    page.get_by_placeholder("Type a new question (e.g. does my travel policy contains flight expense?)").click()
+    page.get_by_placeholder("Type a new question (e.g. does my travel policy contains flight expense?)").fill(
         "Whats the dental plan?"
     )
     page.get_by_role("button", name="Ask question button").click()
